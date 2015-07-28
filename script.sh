@@ -1,13 +1,7 @@
 #!/usr/bin/bash
 declare -A RUTAS=( 
-	["photopia"]="/opt/lampp/htdocs/photopia" 
-	["dipro"]="/opt/lampp/htdocs/dipro" 
-	["indicadores"]="/opt/lampp/htdocs/indicadores" 
-	["geo"]="/opt/lampp/htdocs/geourbana" 
-	["kassani"]="/opt/lampp/htdocs/kassani" 
-	["info"]="/home/dinoxindustrial/Documents/Projects/op/infosheets_web" 
-	["agro"]="/home/dinoxindustrial/Documents/Projects/op/agroreportes_web" 
-	["cluster"]="/opt/lampp/htdocs/red_cluster" 
+	["nombre"]="ruta/a/nombre" 
+	["otronombre"]="ruta/a/otronombre" 
 	)
 
 function push
